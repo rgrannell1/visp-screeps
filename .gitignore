@@ -1,0 +1,5 @@
+node_modules/*
+dist/*
+server/*
+.screeps-multimeter.history
+screeps-multimeter.json
