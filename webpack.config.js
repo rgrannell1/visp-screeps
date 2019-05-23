@@ -22,13 +22,7 @@ const config = {
   entry: {
     main: path.join(AI_DIR, 'js/main.js')
   },
-  plugins: [
-    new CopyPlugin([
-      {
-        from: path.join(AI_DIR, '/visp')
-      }
-    ])
-  ],
+  plugins: [],
   output: {
     path: BUILD_DIR,
     filename: '[name].js',

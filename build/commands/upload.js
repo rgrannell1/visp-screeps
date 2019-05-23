@@ -13,7 +13,7 @@ const constants = {
 
 const command = {
   name: 'upload',
-  dependencies: ['build']
+  dependencies: ['build', 'clean-remote']
 }
 
 command.cli = `

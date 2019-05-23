@@ -3,3 +3,4 @@ dist/*
 server/*
 .screeps-multimeter.history
 screeps-multimeter.json
+src/js/main.js
