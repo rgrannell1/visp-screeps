@@ -25,7 +25,8 @@ const writeTemplates = async root => {
 
   const content = (await fs.readFile(paths.mainJsTemplate)).toString()
   const view = {
-    mainVisp: (await fs.readFile(paths.mainVisp)).toString()
+    mainVisp: (await fs.readFile(paths.mainVisp)).toString(),
+    date: (new Date).toString()
   }
 
   return fs.writeFile(paths.mainJs, Mustache.render(content, view))
